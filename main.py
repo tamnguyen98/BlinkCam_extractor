@@ -1,12 +1,12 @@
 from blinkpy import blinkpy
 import datetime
 
-USER = ''
-PASS = ''
+USER = '' # User name to your blink account
+PASS = '' # Password to your blink account
 print('Downloader running...')
 
 # Location to store the videos
-blink_dir = 'F:/Blink_cam/'
+blink_dir = 'PATH/TO/STORAGE' # Location to store the videos
 date = datetime.datetime
 
 try: # check out directory for file
